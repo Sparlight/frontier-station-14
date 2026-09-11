@@ -164,8 +164,10 @@
       - state: equipped-head-dog
       - state: equipped-head-unshaded-dog
         shader: unshaded
-  - type: PointLight
-    radius: 6
+  # Frontier
+  #- type: PointLight
+  #  radius: 6
+  # End Frontier
   - type: PressureProtection
     highPressureMultiplier: 0.72
     lowPressureMultiplier: 1000
@@ -188,9 +190,11 @@
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 1000
-  - type: PointLight
-    radius: 7
-    energy: 3
+  # Frontier
+  #- type: PointLight
+  #  radius: 7
+  #  energy: 3
+  # End Frontier
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -240,8 +244,10 @@
       - state: equipped-head-dog
       - state: equipped-head-unshaded-dog
         shader: unshaded
-  - type: PointLight
-    radius: 6
+  # Frontier
+  #- type: PointLight
+  #  radius: 6
+  # End Frontier
   - type: PressureProtection
     highPressureMultiplier: 0.72
     lowPressureMultiplier: 1000
@@ -518,10 +524,12 @@
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 1000
-  - type: PointLight
-    radius: 7
-    energy: 3
+  # Frontier
+  #- type: PointLight
+  #  radius: 7
+  #  energy: 3
   - type: CorgiWearable # Frontier
+  # End Frontier
 
 #ANTAG HARDSUITS
 #Blood-red Hardsuit
@@ -537,6 +545,7 @@
     sprite: Clothing/Head/Hardsuits/syndicate.rsi
   - type: PointLight
     color: green
+    energy: 12 # Frontier: the green light is too dim on lower values
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -565,6 +574,7 @@
     sprite: Clothing/Head/Hardsuits/syndiemedic.rsi
   - type: PointLight
     color: green
+    energy: 12 # Frontier: the green light is too dim on lower values
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -590,6 +600,7 @@
     sprite: Clothing/Head/Hardsuits/syndieelite.rsi
   - type: PointLight
     color: red
+    energy: 8 # Frontier: the red light is too dim on lower values
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -623,6 +634,7 @@
     sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
   - type: PointLight
     color: green
+    energy: 12 # Frontier: the green light is too dim on lower values
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -753,10 +765,12 @@
       - state: equipped-HELMET-unshaded-vox
         shader: unshaded
   - type: ItemTogglePointLight
-  - type: PointLight # Color matches visor colors, radius/energy same as mining hardsuit for the big captain.
+  - type: PointLight
     color: "#f3ea9c"
-    radius: 7
-    energy: 3
+  # Frontier
+  #  radius: 7
+  #  energy: 3
+  # End Frontier
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -1000,5 +1014,7 @@
     sprite: Clothing/Head/Hardsuits/santahelm.rsi
   - type: PointLight
     color: "#f4ffad"
-    radius: 5
-    energy: 2
+  # Frontier
+  #  radius: 5
+  #  energy: 2
+  # End Frontier
